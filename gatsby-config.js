@@ -4,17 +4,30 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
+    siteTitle: `MyCoffee`,
+    siteTitleAlt: `MyCoffeeMarbella`,
+    siteHeadline: `Healthy Kitchen & Drinks`,
+    // siteUrl: 'https://mycoffeemarbella.com',
+    siteDescription: `Cafeteria - Restaurante con comida saludable`,
+    siteLanguage: 'es',
+    siteImage: `/beans.svg`,
+    author: 'Russo',
+    social: [
+       {
+         url: 'https://www.instagram.com/mycoffeemarbella/',
+         name: 'MyCoffeeMarbella'
+       },
+     ],
   },
-  plugins: [
+  plugins: [ 
     {
       resolve: `@lekoarts/gatsby-theme-jodie`,
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
+          { name: `Menus`, slug: `/projects` },
           { name: `Instagram`, slug: `/instagram` },
-          { name: `About`, slug: `/about` },
+          { name: `Contacto`, slug: `/contact` },
         ],
       },
     },
@@ -24,22 +37,38 @@ module.exports = {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
+    // {
+    //   resolve: `gatsby-theme-contact`,
+    //   options: {
+    //     contactPath: '/contact',
+    //     successPath: '/thanks'
+    //   },
+    // },
+    {
+      resolve: `gatsby-theme-contact`,
+        options: {
+         contactPath: '/contacto',
+         successPath: '/thanks'
+       },
+    },
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: `2315642426`,
+        username: `mycoffeemarbella`,
+        access_token: process.env.ACCESS_TOKEN,
+        instagram_id: process.env.BUSINESS_ID,
       },
     },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jodie - @lekoarts/gatsby-theme-jodie`,
-        short_name: `jodie`,
-        description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+        name: `MyCoffeeMarbella`,
+        short_name: `MyCoffee`,
+        description: `Cafeteria / Restaurante de comida saludable`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#b75e09`,
+        theme_color: `#9bcfc8`,
         display: `standalone`,
         icons: [
           {

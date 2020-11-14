@@ -1,0 +1,22 @@
+import * as React from "react"
+
+const Logo = () => (
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505.67 505.67">
+  <title>heart</title>
+  <g id="Layer_01" data-name="Layer 01">
+    <circle class="cls-1" cx="252.83" cy="252.83" r="252.33" fill="none" stroke="#000000"/>
+    <path class="cls-2" d="M70,347C92.2,452.46,185.79,531.65,297.87,531.65c112.3,0,206-78.89,228-184.67" transform="translate(-45.5 -44.81)" stroke-miterlimit="10" fill="none" stroke="#000000"/>
+    <path class="cls-2" d="M526.32,253.37C505.2,146.49,410.95,65.9,297.87,65.9S90.62,146.44,69.45,253.25" transform="translate(-45.5 -44.81)" stroke-miterlimit="10" fill="none" stroke="#000000"/><text class="cls-3" transform="translate(93.16 377.03) rotate(49.34)" font-size="36px">F</text><text class="cls-3" transform="matrix(0.77, 0.64, -0.64, 0.77, 112.06, 398.6)" font-size="36px">O</text><text class="cls-3" transform="translate(142.04 422.62) rotate(28.98)" font-size="36px">O</text><text class="cls-3" transform="matrix(0.95, 0.32, -0.32, 0.95, 175.98, 440.37)" font-size="36px">D</text><text class="cls-3" transform="translate(208.43 450.15) rotate(11.45)" font-size="36px"> </text><text class="cls-3" transform="translate(223.18 453.19) rotate(4.8)" font-size="36px">&amp;</text><text class="cls-3" transform="translate(254.71 454.95) rotate(-1.75)" font-size="36px"> </text><text class="cls-3" transform="translate(269.87 454.62) rotate(-8.69)" font-size="36px">D</text><text class="cls-3" transform="translate(303.92 448.61) rotate(-18.15)" font-size="36px">R</text><text class="cls-3" transform="translate(332.78 438.26) rotate(-24.94)" font-size="36px">I</text><text class="cls-3" transform="matrix(0.84, -0.54, 0.54, 0.84, 348.11, 431.25)" font-size="36px">N</text><text class="cls-3" transform="matrix(0.75, -0.66, 0.66, 0.75, 377.76, 411.38)" font-size="36px">K</text><text class="cls-3" transform="translate(398.92 391.83) rotate(-49.51)" font-size="36px">S</text><text class="cls-3" transform="translate(101.66 173.33) rotate(-57.23)" font-size="36px">H</text><text class="cls-3" transform="translate(119 147.43) rotate(-47.75)" font-size="36px">E</text><text class="cls-3" transform="matrix(0.78, -0.63, 0.63, 0.78, 136.4, 128.63)" font-size="36px">A</text><text class="cls-3" transform="matrix(0.86, -0.51, 0.51, 0.86, 158.25, 111.68)" font-size="36px">L</text><text class="cls-3" transform="matrix(0.91, -0.4, 0.4, 0.91, 175.91, 101.45)" font-size="36px">T</text><text class="cls-3" transform="translate(195.19 92.86) rotate(-14.94)" font-size="36px">H</text><text class="cls-3" transform="translate(225.48 85.42) rotate(-5.6)" font-size="36px">Y</text><text class="cls-3" transform="translate(249.92 83.55) rotate(0.93)" font-size="36px"> </text><text class="cls-3" transform="translate(262.3 83.56) rotate(6.82)" font-size="36px">K</text><text class="cls-3" transform="translate(287.55 87.17) rotate(13.42)" font-size="36px">I</text><text class="cls-3" transform="translate(301.03 90.43) rotate(19.42)"font-size="36px">T</text><text class="cls-3" transform="matrix(0.88, 0.47, -0.47, 0.88, 320.55, 97.25)" font-size="36px">C</text><text class="cls-3" transform="matrix(0.79, 0.62, -0.62, 0.79, 346.72, 111.45)" font-size="36px">H</text><text class="cls-3" transform="matrix(0.67, 0.74, -0.74, 0.67, 370.88, 131.11)" font-size="36px">E</text><text class="cls-3" transform="translate(388.06 150.01) rotate(57.14)" font-size="36px">N</text>
+    <line class="cls-4" x1="24.5" y1="302.17" x2="480.38" y2="302.17" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+    <line class="cls-4" x1="23.95" y1="208.45" x2="480.82" y2="208.36" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <g id="drawaing"><text class="cls-5" transform="translate(199.4 336.13)" font-size="21px" font-family="BrandonGrotesque-Light, Brandon Grotesque">MARBEL<tspan class="cls-6" x="81.31" y="0" letter-spacing="0.03em">L</tspan>
+      <tspan x="92.25" y="0">A</tspan>
+    </text><text class="cls-4" transform="translate(47.72 279.97)" font-size="70px" font-family="BrandonGrotesque-Bold, Brandon Grotesque" font-weight="700" letter-spacing="0.04em">M<tspan class="cls-8" x="63.56" y="0" letter-spacing="0.05em">Y </tspan>
+      <tspan class="cls-4" x="126.84" y="0" letter-spacing="0.05em">C</tspan>
+      <tspan class="cls-4" x="178.01" y="0" letter-spacing="0.05em">OFFEE</tspan>
+    </text></g>
+    </svg>
+)
+
+export default Logo
