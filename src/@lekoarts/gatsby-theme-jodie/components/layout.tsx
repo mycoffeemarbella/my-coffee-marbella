@@ -11,7 +11,7 @@ import { SkipNavTarget, SkipNavTrigger } from "./skip-nav"
 
 type LayoutProps = { children: React.ReactNode; color?: string }
 
-const Layout = ({ children, color = `white` }: LayoutProps) => (
+const Layout = ({ children, color = `#9bcfc8` }: LayoutProps) => (
   <React.Fragment>
     <Global
       styles={(theme) => ({

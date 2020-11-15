@@ -10,7 +10,7 @@ module.exports = {
     siteUrl: 'https://mycoffeemarbella.com',
     siteDescription: `Cafeteria - Restaurante de comida saludable`,
     siteLanguage: 'es',
-    siteImage: `/beans.svg`,
+    siteImage: `/android-chrome-192x192.png`,
     author: 'Russo',
     social: [
        {
@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        trackingId: "G-D7LGZRTSQN",
       },
     },
     // {

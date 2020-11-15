@@ -6,7 +6,7 @@ const Details = () => (
  <>
    <Styled.h3 sx={{ mt: 0 }}>Visítanos</Styled.h3>
    <span>
-     My Coffee
+     My Coffee Marbella
      <br />
      Calle Virgen del Pilar, 12
      <br />
@@ -17,7 +17,7 @@ const Details = () => (
    <span>+34 617778247</span>
    <div>
    <span>
-     <Styled.a href='mailto:mycoffeebranding@gmail.com'>mycoffeebranding@gmail.com</Styled.a>
+     <Styled.a href='mailto:mycoffeemarbella@gmail.com'>mycoffeemarbella@gmail.com</Styled.a>
    </span>
    </div>
    <Styled.h3>Horario</Styled.h3>
