@@ -55,8 +55,10 @@ module.exports = {
       resolve: `gatsby-source-instagram`,
       options: {
         username: `mycoffeemarbella`,
-        access_token: process.env.ACCESS_TOKEN,
-        instagram_id: process.env.BUSINESS_ID,
+        access_token: "EAAOqPY7l1RABAM0VAxDjCjRPkhA7cvrOz3TDOCOa8kASvCvWH0QMLykG0Eh6APd8mDEyjZAS9sdLf6MXHrZAQgFBwGiaLxhN7I742a1vknLq6UK9qrfvq65GyHu8eLUwg4QTb37PbPtsbl5vtYWEgWoEeblHCbkqBj5sYa2DTqxdabTJap",
+        instagram_id: "17841442932890551",
+        // access_token: process.env.ACCESS_TOKEN,
+        // instagram_id: process.env.BUSINESS_ID,
       },
     },
     `gatsby-plugin-sitemap`,
