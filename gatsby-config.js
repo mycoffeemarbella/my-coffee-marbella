@@ -19,7 +19,12 @@ module.exports = {
        },
      ],
   },
-  plugins: [ 
+  plugins: [ {
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+      trackingId: "UA-183064908-1",
+    },
+  },
     {
       resolve: `@lekoarts/gatsby-theme-jodie`,
       // See the theme's README for all available options
@@ -29,12 +34,6 @@ module.exports = {
           { name: `Instagram`, slug: `/instagram` },
           { name: `Contacto`, slug: `/contact` },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "G-D7LGZRTSQN",
       },
     },
     // {
