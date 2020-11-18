@@ -46,7 +46,7 @@ const Footer = ({ bg }: { bg: string }) => {
         Site by
         {` `}
         <Link aria-label="Link to the theme author's website" href="https://rsportfolio.co.uk/">
-          @Russo
+          @DesignRusso
         </Link>
       </div>
     </footer>
