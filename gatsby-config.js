@@ -56,7 +56,7 @@ module.exports = {
       options: {
         custom: {
           families: ["Brandon Grotesque"],
-          urls: ["fonts.css"],
+          urls: ["/fonts/fonts.css"],
         },
       },
     },
