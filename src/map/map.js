@@ -1,6 +1,6 @@
 import React from 'react'
 import { GoogleMap, LoadScript, InfoWindow, Marker } from '@react-google-maps/api';
-import { styleMapRetro, styleMapLight, styleMapAssasin, styleMapLighterLabels, greyMap }  from "../map/style"
+import { greyMap }  from "../map/style"
 
 const containerStyle = {
   width: '100%',

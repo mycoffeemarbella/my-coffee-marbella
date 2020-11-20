@@ -27,8 +27,8 @@ type DataProps = {
   }
 }
 
-const Homepage: React.FC<PageProps<DataProps>> = ({ data: { pages, projects } }) => {
-  const items = [...pages.nodes, ...projects.nodes]
+const Homepage: React.FC<PageProps<DataProps>> = ({ data: { pages } }) => {
+  const items = [...pages.nodes]
   const itemsCount = items.length
   let divisor = 9
 

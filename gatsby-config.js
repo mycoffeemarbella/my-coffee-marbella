@@ -4,8 +4,8 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `MyCoffee`,
-    siteTitleAlt: `MyCoffeeMarbella`,
+    siteTitle: `My Coffee`,
+    siteTitleAlt: `My Coffee Marbella`,
     siteHeadline: `Healthy Kitchen & Drinks`,
     siteUrl: 'https://mycoffeemarbella.com',
     siteDescription: `Cafeteria - Restaurante de comida saludable`,
@@ -52,6 +52,15 @@ module.exports = {
        },
     },
     {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Brandon Grotesque"],
+          urls: ["./src/static/fonts/fonts.css"],
+        },
+      },
+    },
+    {
       resolve: `gatsby-source-instagram`,
       options: {
         username: `mycoffeemarbella`,
@@ -65,8 +74,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `MyCoffeeMarbella`,
-        short_name: `MyCoffee`,
+        name: `My Coffee Marbella`,
+        short_name: `My Coffee`,
         description: `Cafeteria / Restaurante de comida saludable`,
         start_url: `/`,
         background_color: `#ffffff`,
