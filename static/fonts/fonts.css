@@ -1,19 +1,20 @@
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('BrandonGrotesque-Bold.eot') format('embedded-opentype'),
-         url('BrandonGrotesque-Bold.woff') format('woff'),
-         url('BrandonGrotesque-Bold.ttf') format('truetype'),
-         url('BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold') format('svg');
+    src: url('/fonts/BrandonGrotesque-Bold.eot') format('embedded-opentype');
     font-weight: bold;
-    font-style: normal;
+    font-style: bold;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('BrandonGrotesque-Light.eot') format('embedded-opentype'),
-        url('BrandonGrotesque-Light.woff') format('woff'),
-        url('BrandonGrotesque-Light.ttf') format('truetype'),
-        url('BrandonGrotesque-Light.svg#BrandonGrotesque-Light') format('svg');
+    src: url('/fonts/BrandonGrotesque-Light.woff') format('woff'),
+        url('/fonts/BrandonGrotesque-Light.ttf') format('truetype'),
+        url('/fonts/BrandonGrotesque-Light.svg#BrandonGrotesque-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
+
+/* url('/fonts/BrandonGrotesque-Bold.woff') format('woff'),
+url('/fonts/BrandonGrotesque-Bold.ttf') format('truetype'),
+url('/fonts/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold') format('svg'); */
