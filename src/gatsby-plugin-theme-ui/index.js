@@ -1,6 +1,7 @@
 import { merge } from "theme-ui"
 import { tailwind } from "@theme-ui/presets"
 import prismPreset from "@theme-ui/prism/presets/github"
+import "../../static/fonts/fonts.css"
 
 const contentStyles = {
   px: [1, 3, 4],

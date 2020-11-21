@@ -8,7 +8,8 @@ module.exports = {
     siteTitleAlt: `My Coffee Marbella`,
     siteHeadline: `Healthy Kitchen & Drinks`,
     siteUrl: 'https://mycoffeemarbella.com',
-    siteDescription: `Cafeteria - Restaurante de comida saludable`,
+    siteDescription: `My Coffee - Cafetería / Restaurante de comida saludable con una extensa varieded de platos - Desayunos, Almuerzos y Meriendas - Bowls, Tostas, Smoothies, Café, Burgers - Bebidas y comida - 
+    My Coffee - Healthy food restaurant - Breakfast, Lunch y snacks - Bowls, Tostas, Smoothies, Coffee - Drinks and food`,
     siteLanguage: 'es',
     siteImage: `/android-chrome-192x192.png`,
     author: 'Russo',
@@ -76,7 +77,7 @@ module.exports = {
       options: {
         name: `My Coffee Marbella`,
         short_name: `My Coffee`,
-        description: `Cafeteria / Restaurante de comida saludable`,
+        description: `Cafeteria - Restaurante de comida saludable`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
