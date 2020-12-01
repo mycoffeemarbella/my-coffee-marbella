@@ -16,7 +16,7 @@ module.exports = {
     social: [
        {
          url: 'https://www.instagram.com/mycoffeemarbella/',
-         name: 'MyCoffeeMarbella'
+         name: 'My Coffee Marbella'
        },
      ],
   },
