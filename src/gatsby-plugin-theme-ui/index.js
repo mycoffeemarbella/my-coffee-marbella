@@ -23,6 +23,16 @@ const theme = merge(tailwind, {
     textMuted: `#46505f`,
     textMutedLight: `#a0aab8`,
   },
+  links: {
+    bold: {
+      fontWeight: 'bold',
+    },
+    nav: {
+      fontWeight: 'bold',
+      color: 'blue',
+      textDecoration: 'none',
+    }
+  },
   sidebar: {
     normal: `250px`,
     wide: `250px`,
@@ -81,7 +91,7 @@ const theme = merge(tailwind, {
         maxWidth: `100%`,
       },
       a: {
-        color: `primary`,
+        color: `secondary`,
         "&:hover, &:focus": {
           textDecoration: `underline`,
         },

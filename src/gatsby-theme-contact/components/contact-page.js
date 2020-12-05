@@ -9,6 +9,7 @@ import Form from './form'
 import Details from './details'
 import Socials from './socials'
 
+
 const ContactPage = () => (
   <Layout>
     <section

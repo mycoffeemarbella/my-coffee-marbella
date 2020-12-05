@@ -2,6 +2,7 @@
 import { jsx, Link, useThemeUI } from "theme-ui"
 import { readableColor } from "polished"
 import useSiteMetadata from "../hooks/use-site-metadata"
+import Glovo from '../../../../static/glovo.png'
 
 const Footer = ({ bg }: { bg: string }) => {
   const { siteTitle } = useSiteMetadata()
@@ -32,6 +33,9 @@ const Footer = ({ bg }: { bg: string }) => {
         variant: `footer`,
       }}
     >
+      <div>    
+      <Link href="https://glovoapp.com/en/mba/store/my-coffe-marbella-marbella/"> <img src={Glovo} height="30px" alt="glovo"/> </Link>
+      </div>
       <div>
         &copy; {new Date().getFullYear()} by {siteTitle}.
       </div>
