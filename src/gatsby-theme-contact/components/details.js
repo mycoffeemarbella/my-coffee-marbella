@@ -21,7 +21,7 @@ const Details = () => (
    </span>
    </div>
    <Styled.h3>Horario</Styled.h3>
-   <span>Horario: 09:00 - 18:00 (Lunes cerrado)</span>
+   <span>Horario: 09:00 - 18:00 (Miercoles cerrado)</span>
 
  </>
 )
